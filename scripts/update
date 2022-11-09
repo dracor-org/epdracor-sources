@@ -120,7 +120,7 @@ for id in $(cat ids.txt); do
   [ -z $VERBOSE ] && echo "$id"
   if ! [[ -f $file ]] || [[ -n "$ALL" ]]; then
     if [ -n "$COPY" ]; then
-      source=$REPO_PATH/{eccotcp,eebotcp}/texts/$dir/$id.xml
+      source=$(ls $REPO_PATH/{eccotcp,eebotcp}/texts/$dir/$id.xml 2>/dev/null)
       cp $v $source $file
     else
       url="https://bitbucket.org/eplib/$dir/raw/master/$id.xml"
