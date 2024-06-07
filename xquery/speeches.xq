@@ -7,7 +7,7 @@ declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
 declare option output:method "json";
 declare option output:media-type "application/json";
 
-let $col := request:get-parameter("collection", "/db/epdracor-sources/xml")
+let $col := request:get-parameter("collection", "/db/engdracor-sources/xml")
 let $id := request:get-parameter("id", "")
 
 return if (not($id)) then (

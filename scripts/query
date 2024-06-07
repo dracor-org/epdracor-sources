@@ -16,7 +16,7 @@ fi
 
 EXIST_HOST=${EXIST_HOST:-localhost}
 EXIST_PORT=${EXIST_PORT:-8080}
-EXIST_COLLECTION=${EXIST_COLLECTION:-/db/epdracor-sources}
+EXIST_COLLECTION=${EXIST_COLLECTION:-/db/engdracor-sources}
 
 server_url=http://admin:$EXIST_ADMIN_PASSWORD@$EXIST_HOST:$EXIST_PORT/exist/rest
 query_url=$server_url$EXIST_COLLECTION/xquery/$query

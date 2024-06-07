@@ -18,7 +18,7 @@ EOF
 
 EXIST_HOST=localhost
 EXIST_PORT=8080
-EXIST_COLLECTION="/db/epdracor-sources"
+EXIST_COLLECTION="/db/engdracor-sources"
 DELETE=""
 
 if [ -f .env ]; then

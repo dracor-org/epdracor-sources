@@ -1,8 +1,8 @@
-# epdracor-sources
+# engdracor-sources
 
 This repository maintains the selection of documents from the
 [EarlyPrint Project](https://earlyprint.org) that serve as the sources of the
-[EPDraCor](https://github.com/dracor-org/epdracor) corpus.
+[EngDraCor](https://github.com/dracor-org/engdracor) corpus.
 
 The EarlyPrint IDs of the selected documents are maintained in the
 [ids.txt](ids.txt) file.
